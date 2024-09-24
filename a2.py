@@ -41,7 +41,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         # your job is to fill out the body of this loop
 
         # you should delete the following line
-        return ["Not done yet :)"]
+        
 
         # 1) if we reached the end of the pattern but not source
 
