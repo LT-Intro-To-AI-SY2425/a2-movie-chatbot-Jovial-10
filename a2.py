@@ -61,7 +61,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         # indicates the current thing it pattern doesn't match the current thing in
         # source
 
-    return result
+    
 
 
 if __name__ == "__main__":
