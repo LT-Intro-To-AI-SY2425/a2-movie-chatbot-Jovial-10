@@ -23,16 +23,16 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
     # the index is != to the length of the list)
     while pind < len(pattern) or sind < len(source):
 
-        if pind==len(pattern) and sind < len(source):
+        if pind==len(pattern) and sind < != len(source):
             return None
         
-        elif sind == len(source) and pind < len(pattern):
+        elif sind == len(source):
             return None
 
-        elif source[sind] == pattern[pind]:
+        elif pattern[pind] == source[sind]:
             pind += 1
-            sind += 1 
-
+            sind += 1
+            
         else:
             return None
 
