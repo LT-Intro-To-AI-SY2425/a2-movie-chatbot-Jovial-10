@@ -13,8 +13,11 @@ This assignment is about learning and applying the while loop and iterating thro
 ## Reflection Questions
 1. What was difficult for you while completing the match function?
 
+The most difficult part for was creating all of the else statements and making sure the match function works for every case.
 
 
 2. Explain how you could use the match function for extracting information from a movie database.
+
+One way to use the match function for extracting info form a movie database is to find speciifc information such as movies from a particular year or what movies a director has produced.
 
 
